@@ -1,0 +1,1181 @@
+/*                                            INDEX                                             */
+/*                                                                                              */
+/*                                                                                              */
+/* +++++++++++++++++++++++++++++++++++++++++++NAVBAR+++++++++++++++++++++++++++++++++++++++++++ */
+/* -------------------------------------------------------------------------------------------- */
+/* ++++++++++++++++++++++++++++++++++++++++++++BODY++++++++++++++++++++++++++++++++++++++++++++ */
+/* -------------------------------------------------------------------------------------------- */
+/* -------------------------------------------GLOBAL------------------------------------------- */
+/* --------------------------------------------HOME-------------------------------------------- */
+/* ----------------------------------------PLAYSTATION4---------------------------------------- */
+/* --------------------------------------------XBOX-------------------------------------------- */
+/* -------------------------------------------SWITCH------------------------------------------- */
+/* -------------------------------------------ESPORTS------------------------------------------ */
+/* -----------------------------------------BOARDGAMES----------------------------------------- */
+/* ---------------------------------------------PC--------------------------------------------- */
+/* ------------------------------------------CONTACTUS----------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+/* -----------------------------------------EXTENSIONS----------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+/* +++++++++++++++++++++++++++++++++++++++++++FOOTER+++++++++++++++++++++++++++++++++++++++++++ */
+/* -------------------------------------------------------------------------------------------- */
+/* +++++++++++++++++++++++++++++++++++++++++++MOBILE+++++++++++++++++++++++++++++++++++++++++++ */
+/* -------------------------------------------------------------------------------------------- */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+@font-face {
+    font-family: Retro; src: url("../fonts/Retro/Retro\ Gaming.ttf");
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html, body, header {
+    height: 100%;
+}
+
+body {
+    background: rgb(55,35,129);
+    background: linear-gradient(rgba(55,35,129,1), rgba(185,86,166,1) 40%, rgba(190,118,9,1) 85%, rgba(142,89,9,1));
+
+    background: #1c1121;
+    overflow-y: scroll;
+
+    font-family: 'Roboto';
+}
+
+h1, h2 {
+    font-family: 'Montserrat' !important;
+}
+
+.media {
+    border: none !important;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++NAVBAR+++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.navbar {
+    background-color: transparent !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+nav .container {
+    max-width: 80% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.navbar-brand {
+    margin-right: 80px;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Montserrat';
+
+    margin-top: 60px;
+    font-size: 1.25em;
+}
+/* ADDED TRANSITION ANIMATION ON HOVER */
+.navbar-nav li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white !important;
+    padding: 0 !important;
+}
+.navbar-nav li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #e4a101;
+    transition: width .25s;
+}
+.navbar-nav li a:hover::after {
+    width: 100%;
+}
+#navcon {
+    width: 100%;
+}
+.navbar-toggler {
+    background-color: #e4a101 !important;
+}
+
+#navExtension {
+    position: absolute;
+    width: 100%
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++BODY++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* -------------------------------------------GLOBAL------------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+.container {
+    max-width: 100% !important;
+}
+
+.card {
+    max-width: 100% !important;
+}
+.card::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #e4a101;
+    transition: width .30s;
+}
+.card:hover::after {
+    width: 100%;
+}
+
+#content {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#content a, #content a:hover, #content a:active, #content a:focus {
+    text-decoration: none;
+    color: white;
+}
+#midSection {
+    display: flex;
+    margin-bottom: 50px;
+    color: white;
+
+    margin-top: 50px;
+}
+.carousel {
+    margin-bottom: 50px;
+}
+.carousel-indicators li {
+    background-color: white;
+}
+.carousel-inner img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+#top15 .card
+{
+    min-width: 18rem;
+    max-width: 18rem;
+    margin-bottom: 20px;
+
+    color: white;
+    background-color: rgb(33, 19, 44)
+}
+#top15 figcaption h2
+{
+    color: white;
+}
+
+#top15 .card img
+{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#gameAW figcaption, #gameUP figcaption, #top15 figcaption{
+    display: inline-block;
+
+    font-family: 'Montserrat';
+}
+#gameAW img, #gameUP img, #top15 img {
+    display: inline-block;
+    margin-bottom: 15px;
+    height: 25px;
+}
+#gameAwards h5 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    width: 300px;
+}
+#upcoming {
+    margin-left: 37px;
+}
+#upcoming ul li {
+    width: 590px;
+    height: 121.4px;
+}
+
+#news {
+    margin-bottom: 50px;
+}
+#newspaper figcaption {
+    display: inline-block;
+
+    font-family: 'Montserrat';
+
+    color: white;
+}
+#newspaper img {
+    display: inline-block;
+    margin-bottom: 15px;
+    height: 25px;
+}
+#newspaper .newsDarkIcon {
+    display: none;
+}
+#newsArticles {
+    columns: 2;
+}
+#article1, #article2, #article3, #article4, #article5, #article6, #article7, #article8, #article9, #article10 {
+    padding: 5px !important;
+    width: 655px;
+    height: 155px;
+    margin-bottom: 10px;
+    background-color: #e4a101;
+    color: rgb(33, 19, 44);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+#article1 img, #article2 img, #article3 img, #article4 img, #article5 img, #article6 img, #article7 img,
+#article8 img, #article9 img, #article10 img {
+    height: 100%;
+    margin-right: 0px !important;
+}
+#news p {
+    margin-bottom: 0.5em;
+}
+#news #articleText {
+    font-size: 0.85em;
+    margin-bottom: 0px;
+}
+#news #articleTitle {
+    font-size: 0.90em;
+    font-weight: bold;
+}
+#news .media-body {
+    height: 100%;
+    padding: 10px;
+}
+
+#article1:hover, #article2:hover, #article3:hover, #article4:hover, #article5:hover, #article6:hover, #article7:hover, #article8:hover, #article9:hover, #article10:hover {
+    background-color: rgb(33, 19, 44);
+    color: white;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* --------------------------------------------HOME-------------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+
+/* HEADER  */
+.bannerphoto {
+    background: url("../logos/rgBg6.jpg")no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    margin-top: -126px;
+}
+.bannertext {
+    position: absolute;
+    top: 550px;
+    left: 130px;
+}
+
+.bannertext h1 {
+    font-family: Retro !important;
+    font-size: 3em;
+    color: white;
+    background-color: #140327;
+    width: auto;
+}
+header #bannerbutton {
+    position: absolute;
+    font-size: 1.25em;
+    color: rgb(33, 19, 44);
+    background-color: #e4a101;
+
+    width: auto;
+    border-radius: 15px;
+
+    bottom: 50px;
+    right: 190px;
+}
+header #bannerbutton a, 
+header #bannerbutton a:focus, 
+header #bannerbutton a:active, 
+header #bannerbutton a:hover {
+    color: black;
+    text-decoration: none;
+}
+/* END HEADER */
+
+/* GAMEAWARDS */
+#gameOfTheYear, #bestGameDirection, #bestVRGame, #bestEsportsGame, #bestCommunitySupport {
+    background-color: rgb(33, 19, 44);
+    display: flex;
+    color: white;
+    width: 703px;
+    height: 230px;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.awardsContent {
+    padding: 20px;
+    height: 100%;
+}
+#bestCommunitySupport .awardsContent {
+    padding-top: 10;
+}
+.awardsContent p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #e4a101;
+}
+.awardsContent .accentColor {color: #e4a101;}
+.awardsContent p span {
+    min-width: 76px;
+    display: inline-block;
+    color: white;
+}
+.awardsContentImage {
+    height: 100%;
+}
+#gameOfTheYear h5, #bestGameDirection h5, #bestVRGame h5, #bestEsportsGame h5, #bestCommunitySupport h5 {
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#gameOfTheYear img, #bestGameDirection img, #bestVRGame img, #bestEsportsGame img, #bestCommunitySupport img {
+    width: 100%;
+    height: 100%;
+}
+/* END GAMEAWARDS */
+
+/* UPCOMING */
+#lijst {
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+/* END UPCOMING */
+
+/* -------------------------------------------------------------------------------------------- */
+/* ----------------------------------------PLAYSTATION4---------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* --------------------------------------------XBOX-------------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+/* GAMEAWARDS */
+#Action, #Sports, #Strategy2, #Adventure2, #Idle {
+    background-color: rgb(33, 19, 44);
+    display: flex;
+    color: white;
+    width: 703px;
+    height: 230px;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.awardsContent {
+    padding: 20px;
+    height: 100%;
+}
+
+#Idle .awardsContent {
+    padding-top: 10;
+}
+
+.awardsContent p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #e4a101;
+}
+
+.awardsContent .accentColor {
+    color: #e4a101;
+}
+
+.awardsContent p span {
+    min-width: 76px;
+    display: inline-block;
+    color: white;
+}
+
+.awardsContentImage {
+    height: 100%;
+}
+
+#Action h5, #Sports h5, #Strategy2 h5, #Adventure2 h5, #Idle h5{
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#Action img, #Sports img, #Strategy2 img, #Adventure2 img, #Idle img {
+    width: 100%;
+    height: 100%;
+}
+/* END GAMEAWARDS */
+
+/* UPCOMING */
+#lijst {
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+/* END UPCOMING */
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* -------------------------------------------SWITCH------------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* -------------------------------------------ESPORTS------------------------------------------ */
+/* -------------------------------------------------------------------------------------------- */
+/* GAMEAWARDS */
+#Oldest, #LargestPrizePool, #HighestEarnings, #GreatestPlayer, #Mostviewedesports {
+    background-color: rgb(33, 19, 44);
+    display: flex;
+    color: white;
+    width: 703px;
+    height: 230px;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.awardsContent {
+    padding: 20px;
+    height: 100%;
+}
+
+#Mostviewedesports .awardsContent {
+    padding-top: 10;
+}
+
+.awardsContent p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #e4a101;
+}
+
+.awardsContent .accentColor {
+    color: #e4a101;
+}
+
+.awardsContent p span {
+    min-width: 76px;
+    display: inline-block;
+    color: white;
+}
+
+.awardsContentImage {
+    height: 100%;
+}
+
+#Oldest h5, #LargestPrizePool h5, #HighestEarnings h5, #GreatestPlayer h5, #Mostviewedesports h5{
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#Oldest img, #LargestPrizePool img, #HighestEarnings img, #GreatestPlayer img, #Mostviewedesports img {
+    width: 100%;
+    height: 100%;
+}
+/* END GAMEAWARDS */
+
+/* UPCOMING */
+#lijst {
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+/* END UPCOMING */
+
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* -----------------------------------------BOARDGAMES----------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+/* GAMEAWARDS */
+#FAMILY, #DEXTERITY, #ABSTRACTS, #PARTYGAME, #Hobby {
+    background-color: rgb(33, 19, 44);
+    display: flex;
+    color: white;
+    width: 703px;
+    height: 230px;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.awardsContent {
+    padding: 20px;
+    height: 100%;
+}
+
+#Hobby .awardsContent {
+    padding-top: 10;
+}
+
+.awardsContent p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #e4a101;
+}
+
+.awardsContent .accentColor {
+    color: #e4a101;
+}
+
+.awardsContent p span {
+    min-width: 76px;
+    display: inline-block;
+    color: white;
+}
+
+.awardsContentImage {
+    height: 100%;
+}
+
+#FAMILY h5, #DEXTERITY h5, #ABSTRACTS h5, #PARTYGAME h5, #Hobby h5{
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#FAMILY img, #DEXTERITY img, #ABSTRACTS img, #PARTYGAME img, #Hobby img {
+    width: 100%;
+    height: 100%;
+}
+/* END GAMEAWARDS */
+
+/* UPCOMING */
+#lijst {
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+/* END UPCOMING */
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------PC--------------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+
+
+/* GAMEAWARDS */
+#MMORPG, #FirstPersonShooter, #Strategy, #Adventure, #Racing {
+    background-color: rgb(33, 19, 44);
+    display: flex;
+    color: white;
+    width: 703px;
+    height: 230px;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.awardsContent {
+    padding: 20px;
+    height: 100%;
+}
+
+#Racing .awardsContent {
+    padding-top: 10;
+}
+
+.awardsContent p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #e4a101;
+}
+
+.awardsContent .accentColor {
+    color: #e4a101;
+}
+
+.awardsContent p span {
+    min-width: 76px;
+    display: inline-block;
+    color: white;
+}
+
+.awardsContentImage {
+    height: 100%;
+}
+
+#MMORPG h5, #FirstPersonShooter h5, #Strategy h5, #Adventure h5, #Racing h5{
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#MMORPG img, #FirstPersonShooter img, #Strategy img, #Adventure img, #Racing img {
+    width: 100%;
+    height: 100%;
+}
+/* END GAMEAWARDS */
+
+/* UPCOMING */
+#lijst {
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+/* END UPCOMING */
+
+/* -------------------------------------------------------------------------------------------- */
+/* ------------------------------------------CONTACTUS----------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+
+#contactUs img {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+#contactUs figcaption {
+    display: inline-block;
+
+    font-family: 'Montserrat';
+
+    color: white;
+}
+#persons {
+    display: flex;
+}
+#persons figcaption {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+#pers1, #pers2, #pers3, #pers4 {
+    margin-top: 100px;
+    margin-left: 76px;
+    padding: 50px;
+    background-color: #140327;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.bodyContactUs {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+#midContactUs {
+    flex: 1;
+    margin: 100px 0;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* -----------------------------------------EXTENSIONS----------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+
+#ExtBackdrop
+{
+    height: 675px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ExtGameInfo
+{
+    padding-top: 65px;
+    color: white;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#ExtGameDescription
+{
+    width: 45%;
+    margin-right: 30px;
+
+    font-size: 15px;
+}
+
+#ExtGameDescription h2
+{
+    font-family: 'Montserrat';
+    font-size: 25;
+    padding-bottom: 30px;
+}
+
+.ExtDetails p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #e4a101;
+}
+.ExtDetails p span {
+    min-width: 110px;
+    display: inline-block;
+    color: white;
+}
+
+#ExtGameImages {
+    width: 55%;
+}
+#ExtGameImages .row {
+    display: flex;
+    margin: 0;
+}
+#ExtGameImages .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 8px;
+}
+#ExtGameImages .column img {
+    width: 100%;
+    margin-top: 16px;
+}
+#ExtGameImages .column img:nth-child(1) {
+    margin-top: 0;
+}
+#ExtGameImages h2 {
+    font-family: 'Montserrat';
+    font-size: 25;
+    padding-bottom: 30px;
+}
+
+#ExtGameTitle {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+#ExtGameTitle h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    color: white;
+}
+.ExtDesc {
+    margin-bottom: 100px;
+}
+
+#ExtGameReview h2 {
+    font-family: 'Montserrat';
+    font-size: 25;
+    padding-bottom: 30px;
+    color: white;
+}
+#ExtGameReview .card {
+    width: 60%;
+    background-color: #140327;
+    color: white;
+    margin-bottom: 30px;
+}
+#ExtGameReview .card #name {
+    color: #e4a101;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++FOOTER+++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+footer {
+    color: white;
+    font-size: 15px;
+    background-color: transparent !important;
+
+    max-width: 100% !important;
+    width: 100%;
+}
+footer .row {
+    margin: 0 auto;
+    max-width: 1327px !important;
+}
+footer .copyright p {
+    border-top: 1px solid white;
+}
+footer #slogan {
+    font-size: 10px;
+}
+footer h2 {
+    font-size: 30px;
+}
+footer li, footer h5 {
+    text-align: right;
+}
+footer li a {
+    text-decoration: none;
+    color: white;
+
+    display: inline-block;
+}
+footer li a:hover {
+    text-decoration: none;
+    color: #e4a101;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++MOBILE+++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/*576px wide or less (MOBILE)*/
+@media (max-width: 576px) {
+
+    .navbar {
+        padding: 0px !important;
+    }
+    nav .container {
+        max-width: 100% !important;
+        margin: 10px;
+    }
+    .navbar-brand {
+        margin-right: 0;
+    }
+    #navcon {
+        width: 100%;
+    }
+    .navbar-toggler {
+        background-color: #e4a101 !important;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    .bannerphoto {
+        background-position: right;
+    }
+    .bannertext {
+        top: 500px;
+        left: 10px;
+        text-align: left;
+    }
+    .bannertext h1 {
+        font-size: 1.5em;
+        background: none;
+    }
+    header #bannerbutton {
+        display: none;
+    }
+
+    .card img {
+        border-radius: 3px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    #top15 img, #top15 img {
+        margin-bottom: 10px;
+        height: 20px;
+    }
+    #top15 figcaption h2, #top15 figcaption h2 {
+        font-size: 1.5em;
+    }
+
+    /* MIDSECTION */
+    #midSection {
+        flex-direction: column;
+        margin-bottom: 0;
+        padding: 0 10px;
+    }
+    #gameAW img, #gameUP img {
+        margin-bottom: 10px;
+        height: 20px;
+    }
+    #gameAW figcaption h2, #gameUP figcaption h2 {
+        font-size: 1.5em;
+    }
+    #gameAwards, #upcoming {
+        width: 100%;
+        margin: 0 auto 50px auto;
+    }
+    #gameAwards h5 {
+        font-size: 1.2em;
+        width: 145px;
+    }
+    #MMORPG, #FirstPersonShooter, #Strategy, #Adventure, #Racing {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin-bottom: 20px;
+        display: block;
+        transform: rotate(180deg);
+    }
+    #Action, #Sports, #Strategy2, #Adventure2, #Idle {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin-bottom: 20px;
+        display: block;
+        transform: rotate(180deg);
+    }
+    #gameOfTheYear, #bestGameDirection, #bestVRGame, #bestEsportsGame, #bestCommunitySupport {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin-bottom: 20px;
+        display: block;
+        transform: rotate(180deg);
+    }
+
+    #FAMILY, #DEXTERITY, #ABSTRACTS, #PARTYGAME, #Hobby {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin-bottom: 20px;
+        display: block;
+        transform: rotate(180deg);
+    }
+
+    #Oldest, #LargestPrizePool, #HighestEarnings, #GreatestPlayer, #Mostviewedesports {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin-bottom: 20px;
+        display: block;
+        transform: rotate(180deg);
+    }
+
+
+    #MMORPG h5, #FirstPersonShooter h5, #Strategy h5, #Adventure h5, #Racing h5 {
+        margin: 0;
+        width: auto;
+    } 
+    #Action h5, #Sports h5, #Strategy2 h5, #Adventure2 h5, #Idle h5 {
+        margin: 0;
+        width: auto;
+    }
+    #gameOfTheYear h5, #bestGameDirection h5, #bestVRGame h5, #bestEsportsGame h5, #bestCommunitySupport h5 {
+        margin: 0;
+        width: auto;
+    }
+
+
+    #FAMILY h5, #DEXTERITY h5, #ABSTRACTS h5, #PARTYGAME h5, #Hobby h5 {
+        margin: 0;
+        width: auto;
+    }
+
+    #Oldest h5, #LargestPrizePool h5, #HighestEarnings h5, #GreatestPlayer h5, #Mostviewedesports h5 {
+        margin: 0;
+        width: auto;
+    }
+
+
+    #MMORPG img, #FirstPersonShooter img, #Strategy img, #Adventure img, #Racing img {
+        margin: 0;
+        transform: rotate(-180deg);
+    }
+    #Action img, #Sports img, #Strategy2 img, #Adventure2 img, #Idle img{
+        margin: 0;
+        transform: rotate(-180deg);
+    }
+    #gameOfTheYear img, #bestGameDirection img, #bestVRGame img, #bestEsportsGame img, #bestCommunitySupport img {
+        margin: 0;
+        transform: rotate(-180deg);
+    }
+
+
+    #FAMILY img, #DEXTERITY img, #ABSTRACTS img, #PARTYGAME img, #Hobby img {
+        margin: 0;
+        transform: rotate(-180deg);
+    }
+
+    #Oldest img, #LargestPrizePool img, #HighestEarnings img, #GreatestPlayer img, #Mostviewedesports img {
+        margin: 0;
+        transform: rotate(-180deg);
+    }
+
+
+    .awardsContent {
+        padding: 15px;
+        transform: rotate(-180deg);
+    }
+    .awardsContent p{
+        margin: 0;
+    }
+    #bestCommunitySupport .awardsContent {
+        padding-top: 15px;
+    }
+
+    #upcoming ul li, #upcoming ul img {
+        width: 100%;
+        height: auto;
+    }
+
+    #news {
+        margin-bottom: 50px;
+        padding: 0 10px;
+    }
+    #news .media-body {
+        padding: 10px;
+        min-height: 80px;
+        height: auto;
+    }
+    #news p {
+        margin-bottom: 0.5em;
+    }
+    #news #articleText {
+        display: none;
+    }
+    #news #articleTitle {
+        font-size: large;
+        font-weight: 600;
+    }
+    #newspaper img {
+        margin-bottom: 0px;
+        height: 30px;
+    }
+    #newspaper .newsDarkIcon {
+        display: none;
+    }
+    #newspaper .newsWhiteIcon {
+        display: inline-block;
+    }
+    #newspaper figcaption h2 {
+        font-size: 1.5em;
+        color: white;
+    }
+    #newsArticles {
+        columns: 1;
+    }
+    #newsArticles .media {
+        padding: 0 !important;
+        border: none !important;
+    }
+    #article1, #article2, #article3, #article4, #article5, #article6, #article7, #article8, #article9, #article10 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+        display: block;
+
+        background-color: #e4a101;
+        box-shadow: none;
+    }
+    #article1 img, #article2 img, #article3 img, #article4 img, #article5 img, #article6 img, #article7 img,
+    #article8 img, #article9 img, #article10 img {
+        width: 100%;
+        margin-right: 0 !important;
+        margin-bottom: 0px;
+    }
+
+    footer {
+        position: relative;
+        height: 200px;
+        display: block;
+        text-align: center;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    footer #footercontent {
+        display: none;
+    }
+    footer .copyright p {
+        border: none;
+    }
+    footer #footercopyright {
+        position: absolute;
+        top: 20px;
+    }
+    footer #footerheader {
+        position: absolute;
+        bottom: 20px;
+    }
+    footer #footertitle {
+        text-transform: uppercase;
+    }
+    footer #footerslogan {
+        padding: 0 !important;
+    }
+
+    /* -------------------------------------------------------------------------------------------- */
+    /* ------------------------------------------CONTACTUS----------------------------------------- */
+    /* -------------------------------------------------------------------------------------------- */
+
+    .bodyContactUs {
+        height: 100%;
+        display: block;
+    }
+
+    .contentContactUs {
+        width: 100%;
+        padding: 0 10px;
+    }
+    #contactUs img {
+        margin-bottom: 10px;
+        height: 30px;
+    }
+    #contactUs figcaption h2 {
+        font-size: 1.5em;
+        color: white;
+    }
+    #persons {
+        display: block;
+        text-align: center;
+    }
+    #persons figcaption {
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+    }
+    #pers1, #pers2, #pers3, #pers4 {
+        margin: 50px auto;
+        width: 80%;
+    }
+
+    /* --------------------------------------------------------------------------------------------- */
+    /* ------------------------------------------EXTENSIONS----------------------------------------- */
+    /* --------------------------------------------------------------------------------------------- */
+
+    #ExtMidsection, #ExtBackdrop ~ #content {
+        flex-direction: column;
+        margin-bottom: 0;
+        padding: 0 10px;
+    }
+    #ExtGameTitle h1 {
+        font-size: 2em;
+    }
+    #ExtGameInfo {
+        display: block;
+        padding-top: 0;
+        margin-bottom: 75px;
+    }
+    #ExtGameDescription {
+        width: 100%;
+    }
+    #ExtGameDescription h2, #ExtGameImages h2, #ExtGameReview h2 {
+        font-size: 1.5em;
+        padding-bottom: 15px;
+    }
+    .ExtDesc, .ExtDetails {
+        margin-bottom: 75px;
+    }
+    #ExtGameImages {
+        width: 100%;
+    }
+    #ExtGameImages .row {
+        flex-direction: column;
+    }
+    #ExtGameImages .column {
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #ExtGameImages .column img {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    #ExtGameReview .card {
+        width: 100%;
+    }
+    #ExtGameReview .card img, #ExtGameReview .card .text-secondary {
+        display: none;
+    }
+
+
+
+}

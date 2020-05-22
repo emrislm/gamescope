@@ -1,0 +1,168 @@
+#shadow {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.modal-body {
+    background-color: #e4a101;
+}
+
+.modalInput {
+    outline: none;
+    border: none;
+}
+
+#modalTextarea {
+    outline: none;
+    border: none;
+}
+
+#modalTextarea:focus, .modalInput:focus {
+    border-color: transparent !important;
+}
+
+.modalInput::placeholder { color: rgb(33, 19, 44);}
+#modalTextarea::placeholder { color: rgb(33, 19, 44);}
+
+label {
+    display: block;
+    margin: 0;
+}
+
+/*---------------------------------------------*/
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Contact ]*/
+
+.container-contact100 {
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.wrap-contact100 {
+    width: 668px;
+    background: white;
+    border-radius: 2px;
+    overflow: hidden;
+    padding: 52px 60px 78px 60px;
+}
+
+/*==================================================================
+[ Form ]*/
+
+.contact100-form {
+    width: 100%;
+}
+
+.contact100-form-title {
+    display: block;
+    font-size: 2em;
+    color: rgb(33, 19, 44);
+    text-align: left;
+    padding-bottom: 13px;
+}
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/*---------------------------------------------*/
+.label-input100 {
+    width: 22px;
+    height: 100%;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 27px;
+}
+
+.label-input100 img {
+    max-width: 100%;
+}
+
+
+/*---------------------------------------------*/
+.input100 {
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-size: 15px;
+    color: rgb(33, 19, 44);
+    line-height: 1.2;
+}
+
+.modalInput.input100 {
+    height: 70px;
+    padding: 0 20px 0 62px;
+}
+
+
+#modalTextarea.input100 {
+    min-height: 199px;
+    padding: 25px 20px 15px 30px;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-contact100-form-btn {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.contact100-form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 200px;
+    height: 60px;
+    background-color: rgb(33, 19, 44);
+
+    font-size: 14px;
+    color: white;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    transition: all 0.4s;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.contact100-form-btn:hover {
+    background-color: #140327;
+}
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+    .wrap-contact100 {
+        padding: 52px 15px 78px 15px;
+    }
+}
